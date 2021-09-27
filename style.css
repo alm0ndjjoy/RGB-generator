@@ -1,3 +1,4 @@
+/* root */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: "Special Elite", cursive;
 }
 
+/* general styles */
 body {
   display: flex;
   justify-content: center;
@@ -17,6 +19,7 @@ body {
   border-radius: 50px;
   font-size: 30px;
   background: none;
+  border: 1px solid black;
 }
 #btn:hover {
   background: black;

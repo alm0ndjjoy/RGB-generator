@@ -1,9 +1,19 @@
+// grab elements
+const body = document.getElementById("bg");
 
-function randomizer (min, max){
-    let min = 0;
-    let max = 255;
-    
+const rgb = document.getElementById("rgb");
 
-
+//generates a random number from 0-255
+function randomizer (){
+    const random = Math.floor((Math.random()*255) + 1 );
+    return random;
 }
-// create a function that generates a random number from 0-255
+
+//sets rgb
+function rgbNum(){
+    const r = randomizer();
+    const b = randomizer();
+    const g = randomizer();
+    body.style.backgroundColor = `rgb(${r},${g},${b})`;
+    rgb.textContent = `rgb(${r},${g},${b})`;
+}
