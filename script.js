@@ -10,7 +10,7 @@ function randomizer (){
 }
 
 //sets rgb
-function rgbNum(){
+function rgbNum() {
     const r = randomizer();
     const b = randomizer();
     const g = randomizer();
