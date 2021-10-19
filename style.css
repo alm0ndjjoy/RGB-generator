@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 /* root */
 * {
   margin: 0;
@@ -16,13 +17,13 @@ body {
 }
 #btn {
   padding: 20px;
-  border-radius: 50px;
-  font-size: 30px;
-  background: none;
   border: 1px solid black;
+  border-radius: 50px;
+  background: none;
+  font-size: 30px;
 }
 #btn:hover {
-  background: black;
+  background-color: black;
   color: white;
   cursor: pointer;
 }
